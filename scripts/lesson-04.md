@@ -19,17 +19,17 @@ Al finalizar esta lección, el estudiante podrá:
 
 # 0:00 – 0:40 | Introducción
 
-En las lecciones anteriores aprendimos a construir la estructura de una página web utilizando HTML.
+En la lección anterior construimos una página web sobre Machu Picchu utilizando HTML.
 
-Agregamos títulos, párrafos, listas, imágenes y enlaces.
+Agregamos títulos, párrafos, una imagen, listas y un enlace.
 
-Pero nuestra página todavía se ve bastante sencilla.
+Nuestra página ya tiene contenido y una estructura, pero todavía se ve bastante sencilla.
 
 En esta lección vamos a cambiar eso.
 
 Aprenderemos a utilizar CSS para agregar colores, cambiar fuentes, crear bordes y mejorar la apariencia de nuestra página.
 
-Al terminar, podrás comenzar a darle tu propio estilo a un sitio web.
+Al terminar, nuestra página sobre Machu Picchu tendrá una apariencia mucho más atractiva.
 
 ```text
 HTML = Estructura
@@ -38,7 +38,7 @@ CSS = Apariencia
 
 ```text
 ANTES                 DESPUÉS
-HTML sin estilos  →   HTML + CSS
+Solo HTML         →   HTML + CSS
 ```
 
 # 0:40 – 1:50 | ¿Qué es CSS?
@@ -59,7 +59,9 @@ HTML serían las paredes, las puertas y las habitaciones.
 
 CSS sería la pintura, los colores y la decoración.
 
-Ahora vamos a comprobarlo utilizando nuestra página personal.
+En nuestro caso, HTML ya nos permitió agregar toda la información sobre Machu Picchu.
+
+Ahora CSS nos permitirá decidir cómo queremos presentar esa información.
 
 ```text
 HTML
@@ -83,17 +85,19 @@ No necesitamos instalar ningún programa.
 
 En nuestra pantalla podemos encontrar diferentes áreas para escribir HTML y CSS, además de una sección donde veremos el resultado de nuestra página.
 
-Durante esta lección trabajaremos principalmente en las áreas de HTML y CSS.
+En el área HTML ya tenemos el código de la página sobre Machu Picchu que desarrollamos anteriormente.
+
+Durante esta lección trabajaremos principalmente en el área de CSS.
 
 ```text
-HTML → Estructura
-CSS  → Estilos
+HTML   → Estructura
+CSS    → Estilos
 Result → Resultado
 ```
 
 # 2:20 – 3:35 | Nuestra primera regla CSS
 
-Comencemos cambiando el color del título principal.
+Comencemos cambiando el color del título principal de nuestra página.
 
 En el área de CSS vamos a escribir nuestra primera regla.
 
@@ -111,7 +115,7 @@ Esto se llama selector.
 
 El selector indica qué elemento de HTML queremos modificar.
 
-En este caso queremos modificar nuestro título principal.
+En este caso queremos modificar el título principal: "Mi lugar turístico favorito".
 
 Luego tenemos `color`.
 
@@ -139,7 +143,7 @@ Cuando aplicamos la regla, podemos observar inmediatamente que nuestro título c
 
 Ahora cambiemos el fondo de toda nuestra página.
 
-Para modificar el contenido general utilizaremos el selector `body`.
+Para modificar el fondo general utilizaremos el selector `body`.
 
 Agregaremos la propiedad `background-color`.
 
@@ -167,6 +171,10 @@ body {
 }
 ```
 
+Podemos observar inmediatamente cómo cambia el aspecto de nuestra página.
+
+Ahora volvamos a utilizar un tono más claro.
+
 ```css
 body {
   background-color: #f4f4f4;
@@ -183,7 +191,7 @@ También podemos utilizar CSS para cambiar la apariencia del texto.
 
 Vamos a modificar la fuente de toda nuestra página.
 
-Actualizar la regla de `body`:
+Actualizamos la regla de `body`:
 
 ```css
 body {
@@ -200,8 +208,6 @@ También colocamos `sans-serif` como una segunda opción en caso de que la prime
 
 Ahora vamos a aumentar ligeramente el tamaño de nuestros párrafos.
 
-Agregar:
-
 ```css
 p {
   font-size: 18px;
@@ -212,7 +218,7 @@ La propiedad `font-size` controla el tamaño del texto.
 
 En este caso utilizamos un tamaño de dieciocho píxeles.
 
-Podemos observar que nuestro párrafo ahora es un poco más grande y fácil de leer.
+Podemos observar que las descripciones sobre Machu Picchu ahora son un poco más grandes y fáciles de leer.
 
 ```text
 font-family → Tipo de fuente
@@ -223,9 +229,9 @@ font-size   → Tamaño del texto
 
 Podemos utilizar diferentes selectores para cambiar distintas partes de nuestra página.
 
-Por ejemplo, podemos darle otro color a nuestros títulos secundarios.
+Por ejemplo, nuestra página contiene varios títulos secundarios creados con `h2`.
 
-Agregar:
+Podemos darles otro color.
 
 ```css
 h2 {
@@ -233,7 +239,7 @@ h2 {
 }
 ```
 
-Ahora solamente los elementos `h2` utilizan este color.
+Ahora los títulos como "Conoce Machu Picchu", "¿Qué puedes hacer?" y "Más información" utilizan este nuevo color.
 
 Nuestro título principal sigue utilizando el color que configuramos anteriormente.
 
@@ -243,11 +249,11 @@ Los selectores nos permiten elegir qué elementos queremos modificar.
 
 # 7:10 – 8:50 | Bordes y espacios
 
-Nuestra lista de hobbies todavía se ve bastante sencilla.
+Nuestra página también contiene listas con actividades y pasos para visitar Machu Picchu.
 
-Vamos a hacer que destaque un poco más utilizando un fondo, un borde y espacio interior.
+Vamos a hacer que estas listas destaquen un poco más utilizando un fondo, un borde y espacio interior.
 
-Agregar:
+Primero podemos aplicar el estilo a nuestra lista de actividades.
 
 ```css
 ul {
@@ -275,13 +281,17 @@ border  → Borde alrededor del elemento
 padding → Espacio dentro del elemento
 ```
 
-Eliminar temporalmente:
+Si eliminamos temporalmente:
 
 ```css
 padding: 20px;
 ```
 
-Podemos notar que pequeños cambios en CSS pueden hacer que nuestra página sea mucho más fácil de leer.
+podemos observar que el texto queda mucho más cerca del borde.
+
+Al volver a agregarlo, la lista resulta más fácil de leer.
+
+Podemos utilizar este mismo estilo en otras listas de nuestra página más adelante.
 
 # 8:50 – 9:50 | Centrando el título
 
@@ -291,7 +301,7 @@ Vamos a centrar nuestro título principal.
 
 Para hacerlo utilizaremos la propiedad `text-align`.
 
-Actualizar:
+Actualizamos nuestra regla:
 
 ```css
 h1 {
@@ -302,7 +312,7 @@ h1 {
 
 El valor `center` indica que queremos colocar el texto en el centro.
 
-Nuestro título ahora destaca mucho más en la parte superior.
+Nuestro título "Mi lugar turístico favorito" ahora destaca mucho más en la parte superior.
 
 Y lo más importante es que no tuvimos que modificar nuestro HTML.
 
@@ -343,23 +353,27 @@ color     → Propiedad
 royalblue → Valor
 ```
 
+Nuestra página sigue teniendo exactamente el mismo contenido HTML sobre Machu Picchu.
+
+Lo único que hemos cambiado es su apariencia.
+
 # 10:50 – 11:40 | Reto práctico
 
 Ahora es tu turno.
 
 Antes de terminar la lección, quiero proponerte un pequeño reto.
 
-Personaliza nuestra página para que represente tu propio estilo.
+Personaliza la página de Machu Picchu para que tenga tu propio estilo.
 
 Intenta cambiar por lo menos tres cosas.
 
 Puedes cambiar el color del fondo.
 
-Puedes cambiar el color del título.
+Puedes cambiar el color del título principal.
 
 Puedes probar otra fuente.
 
-También puedes cambiar el color o el grosor del borde de nuestra lista.
+También puedes cambiar el color o el grosor del borde de la lista de actividades.
 
 No existe un único diseño correcto.
 
@@ -376,7 +390,7 @@ Pausa el video y prueba tus propios estilos en JSFiddle.
 
 ✓ Prueba otra fuente
 
-✓ Modifica el borde
+✓ Modifica el borde de la lista
 
 ✓ Experimenta
 ```
@@ -387,11 +401,13 @@ Pausa el video y prueba tus propios estilos en JSFiddle.
 
 Ahora conoces los conceptos básicos de CSS y sabes cómo utilizarlo junto con HTML.
 
+Comenzamos con la página de Machu Picchu que construimos en la lección anterior y conseguimos mejorar su apariencia sin cambiar su contenido.
+
 HTML nos permite construir la estructura de una página.
 
 CSS nos permite controlar su apariencia.
 
-En las siguientes lecciones continuaremos combinando ambos para crear páginas cada vez más completas.
+En la siguiente lección continuaremos combinando ambos para construir una página cada vez más completa.
 
 Y recuerda: no tienes que memorizar todas las propiedades de CSS.
 
