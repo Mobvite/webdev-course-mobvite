@@ -17,7 +17,7 @@ requiere descargas!** Solo abre tu navegador web.
 - **Descripción**: Explora las etiquetas HTML básicas y crea tu primera página.
 - **Enlace**: [Ver la lección 2](https://www.youtube.com/watch?v=example-link2)
 - **Consejos clave**: Usa `<html>`, `<head>`, `<body>`, `<h1>`, `<p>`.
-- **Práctica**: [Clic para programar](https://codepen.io/your-pen-id) 👈 **¡No necesitas registrarte!**
+- **Práctica**: [Clic para programar](https://codepen.io/Alice-keys/pen/jEBJrXJ) 👈 **¡No necesitas registrarte!**
 ### Lección 3: Añadir más elementos HTML (8 minutos)
 - **Descripción**: Agrega listas, imágenes y enlaces para que tu página sea interactiva.
 - **Enlace**: [Ver la lección 3](https://www.youtube.com/watch?v=example-link3)
@@ -45,7 +45,7 @@ requiere descargas!** Solo abre tu navegador web.
  | Lección # | Actividad | Empezar a Programar |
   |----------|----------|-------------|
   | 1 | Explorar Sitios Web | [CodePen](https://codepen.io/your-lesson1) |
-  | 2 | Primera página HTML | [CodePen](https://codepen.io/your-lesson1) |
+   | 2 | Primera página HTML | [CodePen](https://codepen.io/Alice-keys/pen/jEBJrXJ) |
   | 3 | Añadir imágenes | [CodePen](https://codepen.io/your-lesson1) |
   | 4 | Estilo de la página | [CodePen](https://codepen.io/your-lesson1) |
   | 5 | Página de perfil | [CodePen](https://codepen.io/your-lesson1) |
