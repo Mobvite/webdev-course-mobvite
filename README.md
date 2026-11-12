@@ -45,7 +45,7 @@ requiere descargas!** Solo abre tu navegador web.
 ### Lección 5: Crear una página web sencilla (15 minutos)
 
 - **Descripción**: Combinar HTML y CSS para crear una página de perfil personal.
-- **Enlace**: [Ver la lección 5](https://www.youtube.com/watch?v=example-link5)
+- **Enlace**: [Ver la lección 5](https://youtu.be/d60i3HbRSo4)
 - **Consejos clave**: Aplicar estilos y depurar errores.
 - **Carpeta de codigo fuente**: [Crea tu Perfil](https://replit.com/@your-final-project) 👈 **¡Guarda y comparte!**
 
