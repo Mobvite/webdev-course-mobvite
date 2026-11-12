@@ -25,7 +25,7 @@ requiere descargas!** Solo abre tu navegador web.
 - **Enlace**: [Ver la lección 2](https://youtu.be/2WhfuqnpntU)
 - **Consejos clave**: Usa `<html>`, `<head>`, `<body>`, `<h1>`, `<p>`.
 - **Práctica**: [Clic para programar](https://codepen.io/Alice-keys/pen/jEBJrXJ) 👈 **¡No necesitas registrarte!**
-- **Carpeta de codigo fuente**: [Introduccion a HTML](https://github.com/Mobvite/webdev-course-mobvite/tree/main/starter-files/lesson-02)
+- **Carpeta de codigo fuente**: [Introduccion a HTML](https://github.com/Mobvite/webdev-course-mobvite/tree/main/completed-examples/lesson-02)
 - **¡No necesitas registrarte!**
 
 ### Lección 3: Añadir más elementos HTML (8 minutos)
@@ -33,28 +33,27 @@ requiere descargas!** Solo abre tu navegador web.
 - **Descripción**: Agrega listas, imágenes y enlaces para que tu página sea interactiva.
 - **Enlace**: [Ver la lección 3](https://www.youtube.com/watch?v=VCcta3ZOjUo)
 - **Consejos clave**: Usa las etiquetas `<ul>`, `<img>`, `<a>`.
-- **Carpeta de codigo fuente**: [Más elementos HTML](https://github.com/Mobvite/webdev-course-mobvite/tree/main/starter-files/lesson-03) 👈 **¡Comienza al instante!**
+- **Carpeta de codigo fuente**: [Más elementos HTML](https://github.com/Mobvite/webdev-course-mobvite/tree/main/completed-examples/lesson-03) 👈 **¡Comienza al instante!**
 
 ### Lección 4: Introducción a CSS (12 minutos)
 
 - **Descripción**: Dale estilo a tu HTML con colores, fuentes y diseños.
 - **Enlace**: [Ver la lección 4](https://www.youtube.com/watch?v=ZVE2qcS7W4E)
 - **Consejos clave**: Vincular CSS, usar selectores como `body { background-color: blue; }`.
-- **Carpeta de codigo fuente**: [Aplicar estilo con un clic](https://github.com/Mobvite/webdev-course-mobvite/tree/main/starter-files/lesson-04) 👈 **¡No es necesario registrarse!**
+- **Carpeta de codigo fuente**: [Aplicar estilo con un clic](https://github.com/Mobvite/webdev-course-mobvite/tree/main/completed-examples/lesson-04) 👈 **¡No es necesario registrarse!**
 
 ### Lección 5: Crear una página web sencilla (15 minutos)
 
 - **Descripción**: Combinar HTML y CSS para crear una página de perfil personal.
 - **Enlace**: [Ver la lección 5](https://youtu.be/d60i3HbRSo4)
 - **Consejos clave**: Aplicar estilos y depurar errores.
-- **Carpeta de codigo fuente**: [Crea tu Perfil](https://replit.com/@your-final-project) 👈 **¡Guarda y comparte!**
+- **Carpeta de codigo fuente**: [Crea tu Perfil](https://github.com/Mobvite/webdev-course-mobvite/tree/main/completed-examples/lesson-05) 👈 **¡Guarda y comparte!**
 
 ### Lección 6: Consejos y Próximos Pasos (10 minutos)
 
 - **Descripción**: Mejores prácticas, errores comunes y dónde aprender más.
 - **Enlace**: [Ver Lección 6](https://www.youtube.com/watch?v=nV0v8LaQEOg)
 - **Consejos Clave**: Valida el código, explora la Documentación Web de MDN.
-- **Carpeta de codigo fuente**: [Envía tu Creación](https://forms.gle/your-form)
 
 ## Recursos Adicionales
 
@@ -63,11 +62,11 @@ requiere descargas!** Solo abre tu navegador web.
 
 | Lección # | Actividad                  | Resumen                                                                                       |
 |-----------|----------------------------|-----------------------------------------------------------------------------------------------|
-| 1         | ¿Qué es el desarrollo web? | [Leccion 01](https://codepen.io/your-lesson1)                                                 |
+| 1         | ¿Qué es el desarrollo web? | [Leccion 01](https://github.com/Mobvite/webdev-course-mobvite/blob/main/scripts/lesson-01.md)                                                 |
 | 2         | Primera página HTML        | [Leccion 02](https://github.com/Mobvite/webdev-course-mobvite/blob/main/scripts/lesson-02.md) |
 | 3         | Añadir más elementos       | [Leccion 03](https://github.com/Mobvite/webdev-course-mobvite/blob/main/scripts/lesson-03.md) |
 | 4         | Estilo de la página        | [Leccion 04](https://github.com/Mobvite/webdev-course-mobvite/blob/main/scripts/lesson-04.md) |
-| 5         | Página de perfil           | [Leccion 05](https://codepen.io/your-lesson1)                                                 |
+| 5         | Página de perfil           | [Leccion 05](https://github.com/Mobvite/webdev-course-mobvite/blob/main/scripts/lesson-05.md)                                                 |
 | 6         | Buenas prácticas           | [Leccion 06](https://github.com/Mobvite/webdev-course-mobvite/blob/main/scripts/lesson-06.md) |
 
 - Compartir: #WebDevBeginners
