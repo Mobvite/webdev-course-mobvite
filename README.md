@@ -19,12 +19,14 @@ requiere descargas!** Solo abre tu navegador web.
 - **Consejos clave**: Sitios web = Contenido (HTML) + Estilo (CSS).
 - **Empieza a programar**: [Open CodePen](https://codepen.io/)
 
-### Lección 2: Introducción a HTML (10 minutos)
+### Lección 2: Introducción a HTML (5 minutos)
 
 - **Descripción**: Explora las etiquetas HTML básicas y crea tu primera página.
-- **Enlace**: [Ver la lección 2](https://www.youtube.com/watch?v=example-link2)
+- **Enlace**: [Ver la lección 2](https://youtu.be/2WhfuqnpntU)
 - **Consejos clave**: Usa `<html>`, `<head>`, `<body>`, `<h1>`, `<p>`.
-- **Carpeta de codigo fuente**: [Introduccion a HTML](https://github.com/Mobvite/webdev-course-mobvite/tree/main/starter-files/lesson-02) 👈 **¡No necesitas registrarte!**
+- **Práctica**: [Clic para programar](https://codepen.io/Alice-keys/pen/jEBJrXJ) 👈 **¡No necesitas registrarte!**
+- **Carpeta de codigo fuente**: [Introduccion a HTML](https://github.com/Mobvite/webdev-course-mobvite/tree/main/starter-files/lesson-02)
+- **¡No necesitas registrarte!**
 
 ### Lección 3: Añadir más elementos HTML (8 minutos)
 
