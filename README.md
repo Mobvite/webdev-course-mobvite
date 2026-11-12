@@ -59,15 +59,18 @@ requiere descargas!** Solo abre tu navegador web.
 - **Código Fuente Completo**: [Repositorio de GitHub](https://github.com/Mobvite/webdev-course-mobvite)
 - **Todas las Actividades Prácticas**:
 
-| Lección # | Actividad           | Empezar a Programar                                     |
-| --------- | ------------------- | ------------------------------------------------------- |
-| 1         | Explorar Sitios Web | [CodePen](https://codepen.io/your-lesson1)              |
-| 2         | Primera página HTML | [CodePen](https://codepen.io/Alice-keys/pen/jEBJrXJ)    |
-| 3         | Añadir imágenes     | [CodePen](https://codepen.io/your-lesson1)              |
-| 4         | Estilo de la página | [JSFiddle](https://jsfiddle.net/u20241d945/qu6r2vje/2/) |
-| 5         | Página de perfil    | [CodePen](https://codepen.io/your-lesson1)              |
+| Lección # | Actividad                  | Resumen                                                                                       |
+|-----------|----------------------------|-----------------------------------------------------------------------------------------------|
+| 1         | ¿Qué es el desarrollo web? | [Leccion 01](https://codepen.io/your-lesson1)                                                 |
+| 2         | Primera página HTML        | [Leccion 02](https://github.com/Mobvite/webdev-course-mobvite/blob/main/scripts/lesson-02.md) |
+| 3         | Añadir más elementos       | [Leccion 03](https://github.com/Mobvite/webdev-course-mobvite/blob/main/scripts/lesson-03.md) |
+| 4         | Estilo de la página        | [Leccion 04](https://github.com/Mobvite/webdev-course-mobvite/blob/main/scripts/lesson-04.md) |
+| 5         | Página de perfil           | [Leccion 05](https://codepen.io/your-lesson1)                                                 |
+| 6         | Buenas prácticas           | [Leccion 06](https://github.com/Mobvite/webdev-course-mobvite/blob/main/scripts/lesson-06.md) |
 
 - Compartir: #WebDevBeginners
+- **Empieza a programar**: [Open CodePen](https://codepen.io/)
+
 **¡Gracias por completar el curso!**
 
 ---
