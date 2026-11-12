@@ -1,6 +1,6 @@
 # Lección 02 — Introducción a HTML
 
-**Duración estimada:** 10 minutos  
+**Duración estimada:** 5 minutos  
 **Tema:** Introducción a HTML  
 **Herramienta de práctica:** CodePen  
 **Conocimientos previos:** Ninguno. Solo haber visto la lección 1.
@@ -16,7 +16,7 @@ Al finalizar esta lección, el estudiante podrá:
 - Comprender qué es un atributo.
 - Crear su primera página web en un editor en línea.
 
-# 0:00 – 0:40 | Introducción
+# 0:00 – 0:23 | Introducción
 
 En la lección anterior descubrimos que una página web está hecha de contenido y de estilo.
 
@@ -38,7 +38,7 @@ Sitio web = HTML (contenido) + CSS (estilo)
 Hoy: HTML
 ```
 
-# 0:40 – 1:50 | ¿Qué es HTML?
+# 0:23 – 0:51 | ¿Qué es HTML?
 
 HTML significa Lenguaje de Marcado de Hipertexto.
 
@@ -61,7 +61,7 @@ HTML = Le dice al navegador
        qué es cada parte del contenido
 ```
 
-# 1:50 – 2:30 | Conociendo CodePen
+# 0:51 – 1:17 | Conociendo CodePen
 
 Para practicar utilizaremos CodePen.
 
@@ -84,7 +84,7 @@ JS     → Hoy no lo usamos
 Result → Aquí vemos la página
 ```
 
-# 2:30 – 4:00 | Etiquetas y elementos
+# 1:17 – 1:48 | Etiquetas y elementos
 
 Una etiqueta se escribe entre los símbolos "menor que" y "mayor que".
 
@@ -116,7 +116,7 @@ Abre  Contenido  Cierra
 Etiqueta + contenido + etiqueta = Elemento
 ```
 
-# 4:00 – 5:00 | Nuestro primer párrafo
+# 1:48 – 2:11 | Nuestro primer párrafo
 
 Ahora agreguemos un texto debajo del título.
 
@@ -139,7 +139,7 @@ Por eso, una buena costumbre es escribir las dos etiquetas desde el inicio y lue
 <p>  → Párrafo
 ```
 
-# 5:00 – 6:30 | La estructura de una página HTML
+# 2:11 – 2:55 | La estructura de una página HTML
 
 Hasta ahora escribimos solo dos elementos.
 
@@ -184,7 +184,7 @@ html
 └── body → Contenido visible
 ```
 
-# 6:30 – 7:40 | Atributos
+# 2:55 – 3:19 | Atributos
 
 Los elementos pueden tener información adicional.
 
@@ -194,12 +194,10 @@ Un atributo se escribe dentro de la etiqueta de apertura.
 
 Tiene un nombre y un valor entre comillas.
 
-Probemos con el atributo `title` en nuestro párrafo.
+Probemos con el atributo `title` en nuestro primer párrafo.
 
 ```html
-<p title="Ciudad inca ubicada en Cusco, Perú">
-  Machu Picchu es una antigua ciudad inca ubicada en Cusco, Perú.
-</p>
+<p title="Machu Picchu está en Cusco, Perú">Conoce uno de los lugares más bonitos del Perú.</p>
 ```
 
 Si colocamos el cursor sobre el párrafo y esperamos un momento, aparece un pequeño mensaje con ese texto.
@@ -214,7 +212,7 @@ Más adelante utilizaremos atributos para agregar imágenes y enlaces.
 Nombre + valor = Atributo
 ```
 
-# 7:40 – 8:30 | Un título secundario
+# 3:19 – 3:43 | Un título secundario
 
 Una página puede tener varios títulos de distinta importancia.
 
@@ -236,7 +234,7 @@ Mientras más grande es el número, menos importante es el título.
 
 Por ahora, `h1` y `h2` son suficientes.
 
-# 8:30 – 9:00 | Repaso rápido
+# 3:43 – 4:06 | Repaso rápido
 
 Repasemos lo que aprendimos.
 
@@ -256,13 +254,13 @@ Elemento   → <p>Texto</p>
 Atributo   → title="Mensaje"
 ```
 
-# 9:00 – 9:40 | Reto práctico
+# 4:06 – 4:37 | Reto práctico
 
 Ahora es tu turno.
 
 Crea una página sobre tu propio lugar favorito. Puede ser una ciudad, un parque, un restaurante o tu habitación.
 
-Tu página debe tener:
+Tu página debe tener un título principal, un párrafo, un título secundario, otro párrafo con una descripción, y un atributo `title` en uno de los párrafos.
 
 ```text
 ✓ Un título principal con <h1>
@@ -282,7 +280,7 @@ Si algo no se ve como esperabas, revisa que cada etiqueta de apertura tenga su e
 
 No te preocupes por el color o el diseño. De eso nos encargaremos más adelante con CSS.
 
-# 9:40 – 10:00 | Cierre
+# 4:37 – 4:48 | Cierre
 
 ¡Muy bien!
 
@@ -297,27 +295,27 @@ En la siguiente lección agregaremos listas, imágenes y enlaces para que nuestr
 # Descripción para YouTube
 
 ```text
-Lección 2 de 6 — Introducción a HTML (10 min)
+Lección 2 de 6 — Introducción a HTML (5 min)
 
 En esta lección aprenderás qué es HTML, cómo se escriben las etiquetas y los elementos, cómo es la estructura básica de una página y qué es un atributo.
 
 No necesitas instalar nada. Solo tu navegador.
 
-▶ Practica en CodePen (sin registro): [PEGAR_ENLACE_CODEPEN_LECCION_2]
+▶ Practica en CodePen (sin registro): https://codepen.io/Alice-keys/pen/jEBJrXJ
 📂 Código fuente: https://github.com/Mobvite/webdev-course-mobvite
    · Archivos de inicio: /starter-files/lesson-02
    · Ejemplo terminado: /completed-examples/lesson-02
 
 Capítulos:
 0:00 Introducción
-0:40 ¿Qué es HTML?
-1:50 Conociendo CodePen
-2:30 Etiquetas y elementos
-4:00 Nuestro primer párrafo
-5:00 La estructura de una página HTML
-6:30 Atributos
-7:40 Un título secundario
-8:30 Repaso rápido
-9:00 Reto práctico
-9:40 Cierre
+0:23 ¿Qué es HTML?
+0:51 Conociendo CodePen
+1:17 Etiquetas y elementos
+1:48 Nuestro primer párrafo
+2:11 La estructura de una página HTML
+2:55 Atributos
+3:19 Un título secundario
+3:43 Repaso rápido
+4:06 Reto práctico
+4:37 Cierre
 ```
